@@ -4,8 +4,8 @@ import { ContainerVideo, ContainerButton, Button } from "./Webcam.style";
 const Webcam = () => {
   const [enableGray, setEnableGray] = React.useState(false);
   const [showTime, setshowTime] = React.useState(false);
-  const [minutes, setMinutes] = React.useState(0);
-  const [seconds, setSeconds] = React.useState(0);
+  const [minutes, setMinutes] = React.useState<number>(0);
+  const [seconds, setSeconds] = React.useState<number>(0);
   const videoref = React.useRef(null);
 
   React.useEffect(() => {
