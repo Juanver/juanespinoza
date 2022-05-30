@@ -1,0 +1,7 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.grayscale {
+  filter: grayscale();
+}
